@@ -25,7 +25,7 @@ body{
   background-image: -webkit-radial-gradient(cover, rgb(45, 255, 255),#ffffff	);
   background-image: -moz-radial-gradient(cover, #1c85ee, #c00679);
   background-image: -o-radial-gradient(cover, #db9615, #ff00ea);
-  background-image: radial-gradient(cover, #1d74ca, #215db8)
+  background-image: radial-gradient(cover, #1d74ca, #215db8);
 }
 
 html{
