@@ -1,32 +1,41 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Procrastinate.</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- ниже подключили стили для мобильных устройств: в конце урока сможете поделиться проектом в социальных сетях без страха, что на телефоне друга или подруги будет выглядеть некрасиво -->
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/adaptive.css">
-  <link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/js-favicon.ico">
-</head>
+<html>
 <body>
-  <div class="header">
-    <p class="logo">Procrastinate.</p>
-    <div class="button">Ещё идея</div>
-  </div>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"defer></script>
+  </head>
+  		<div id="Navigation">
+			<ul class="Navigation">
+           		<li><a href="#" onclick="clearField()">CLEAR</a>
+               <li><a href="#" onclick="startLife()">START</a>
+                <li><a href="#" onclick="pousetimeFunc()">PAUSE</a>
+               <li><a href="#"onclick="stopLife()">STOP</a>
+            	<li><a href="#">LEVELS</a>
+					<ul>
+				   		<li><a href="#"onclick="level1()">LEVEL 1</a></li>
+				   		<li><a href="#"onclick="level2()">LEVEL 2</a></li>
+				   		<li><a href="#"onclick="level3()">LEVEL 3</a></li>
+              <li><a href="#"onclick="level4()">LEVEL 4</a></li>
+              <li><a href="#"onclick="level5()">LEVEL 5</a></li>
+					</ul>         
+        </div>  
+    <br>
+      <br>
 
-  <img class="image" src="https://code.s3.yandex.net/web-code/procrastinate/9.png">
+<canvas id="c1" width="700" height="751"></canvas>
+<p class="transparent-text"> <span id = "info">  </span></p>
+<p  class="transparent-text">Количество циклов: <span id = "count"> 0 </span></p>
+<p class="transparent-text">Популяция: <span id = "popul"> 0 </span></p>
 
-  <div class="advice">
-    <span>Не писать код, а</span>
-    <span class="phrase">что бы поделать?</span>
-    <img class="cursor" src="https://code.s3.yandex.net/web-code/cursor.gif">
-  </div>
 
-  <p class="footer">© 2020 Сделал Тим Бернерс-Ли</p>
 
-  <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
-  <script src="script.js"></script>
+
+
+     
+
 </body>
 </html>
+
