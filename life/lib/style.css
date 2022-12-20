@@ -50,7 +50,7 @@ html{
 	margin: 0;
 	background-color: rgb(35, 37, 0);
 	border: 1px solid rgb(214, 27, 27);
-	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 1px 3px rgba(255, 30, 30, 0.1)140, 0.1);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 1px 3px rgba(255, 30, 30, 0.1,140, 0.1);
 	border-radius: 3px;
   margin-left:px;
 }
@@ -59,7 +59,7 @@ html{
 	padding:3px;
 	text-decoration: none; 
 	color:rgb(255, 0, 170);
-	text-shadow: 0 1px rgb(230, 208, 18)
+	text-shadow: 0 1px rgb(230, 208, 18);
 	display: block;
 }
 .Navigation li ul{
